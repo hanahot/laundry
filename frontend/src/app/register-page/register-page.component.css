@@ -1,0 +1,284 @@
+
+.logo{
+  position: absolute;
+width: 171px;
+height: 66px;
+left: 37px;
+top: 25px;
+}
+
+.register-card {
+  box-sizing: border-box;
+  position: absolute;
+  width: 513px;
+  height: 578px;
+  left: 737px;
+  top: 210px;
+  background: #C5E2F0;
+  border-radius: 25px;
+  margin-left: 3em;
+}
+
+.footer {
+  position: absolute;
+  width: 701px;
+  height: 22px;
+  left: 369px;
+  top: 965px;
+
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235f83;
+  display: inline-block;
+}
+
+.signInButton{
+  position: absolute;
+width: 85.11px;
+height: 42.02px;
+left: 1185px;
+top: 36px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 156.5%;
+/* or 28px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+
+color: #235F83;
+
+}
+
+.signInButton:hover{
+  cursor: pointer;
+  background-color: #00c0f0;
+}
+
+.register-image{
+  position: absolute;
+width: 435px;
+height: 427px;
+left: calc(50% - 435px/2 - 286.5px);
+top: 238px;
+}
+
+
+.title
+{
+  /* Chore’s Assistant */
+
+  position: absolute;
+  width: 557px;
+  height: 52px;
+  left: 274px;
+  top: 709px;
+
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+}
+.input-phone
+{
+  box-sizing: border-box;
+
+position: absolute;
+width: 440.99px;
+height: 40.23px;
+left: 36px;
+top: 141px;
+
+background: #F5F5F5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+border-style: none;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #235F83;
+}
+.input-fullName{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 438px;
+height: 40.23px;
+left: 36px;
+top: 200.23px;
+
+background: #F5F5F5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+border-style: none;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #235F83;
+}
+
+.input-password{
+  box-sizing: border-box;
+
+position: absolute;
+width: 437.97px;
+height: 40.23px;
+left: 36px;
+top: 260px;
+
+background: #F5F5F5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+border-style: none;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #235F83;
+}
+
+.input-confirmpassword{
+box-sizing: border-box;
+
+position: absolute;
+width: 437.96px;
+height: 40.23px;
+left: 36px;
+top: 327px;
+
+background: #F5F5F5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+border-style: none;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #235F83;
+}
+
+.signUpLabel{
+  position: absolute;
+  width: 189px;
+  height: 27px;
+  left: 168px;
+  top: 37px;
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #235F83;
+  border-style: none;
+}
+
+
+.register-button{
+/* register-button */
+
+position: absolute;
+width: 155.51px;
+height: 43.61px;
+left: 168px;
+top: 69%;
+
+background: #235F83;
+border-radius: 20px;
+
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #FFFBF1;
+justify-content: center;
+
+border-style: none;
+cursor: pointer;
+}
+
+.register-button:hover{
+  background-color: #AAC0F0;;
+}
+
+
+.option{
+  /* alreadyHaveAnAccount */
+
+
+position: absolute;
+width: 334px;
+left: 866px;
+top: 669px;
+
+
+mix-blend-mode: normal;
+
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #6C8054;
+display: inline-block;
+text-align: center;
+
+}

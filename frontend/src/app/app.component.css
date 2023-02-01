@@ -1,0 +1,88 @@
+
+.nav {
+
+  position: absolute;
+  width: 77px;
+  height: 42px;
+  left: 435px;
+  top: 41px;
+
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156.5%;
+
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #235F83;
+
+  mix-blend-mode: normal;
+
+
+
+  }
+
+  a:hover{
+    color: #00c0f0;
+  }
+
+
+  a {
+    list-style: none;
+    display: inline;
+    display: inline;
+    padding: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #235F83;
+
+  }
+
+  hr {
+    position: absolute;
+    width: 1300px;
+    height: 0px;
+    left: 106px  ;
+    top: 101px;
+
+    border: 1.5px solid #AAC0F0;
+    transform: rotate(-0.04deg);
+  }
+
+  .logo{
+    position: absolute;
+  width: 171px;
+  height: 66px;
+  left: 37px;
+  top: 25px;
+  }
+
+
+
+  .footer{
+
+    width: 1000px;
+    height: 24px;
+
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #235F83;
+    position: absolute;
+  left: 24%;
+  top: 128%;
+  padding: 3%;
+  margin-top: auto;
+
+  }

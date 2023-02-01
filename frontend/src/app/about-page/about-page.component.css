@@ -1,0 +1,76 @@
+
+.girl2 {
+  position: absolute;
+  width: 350px;
+  height: 343px;
+  left: 190px;
+  top: 328px;
+}
+
+
+.aboutUs{
+  position: absolute;
+  width: 570px;
+  height: 88px;
+  left: 880px;
+  top: 207px;
+
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 162%;
+  /* or 65px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+}
+
+.AboutDescription{
+  position: absolute;
+width: 488px;
+height: 75px;
+left: 753px;
+top: 375px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 162%;
+/* or 23px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #235F83;
+}
+
+.AboutDescription1{
+  position: absolute;
+width: 407px;
+height: 75px;
+left: 804px;
+    top: 546px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 162%;
+/* or 23px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #235F83;
+}
+

@@ -1,0 +1,708 @@
+.nav {
+  position: absolute;
+  width: 77px;
+  height: 42px;
+  left: 539px;
+  top: 41px;
+
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156.5%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #235f83;
+
+  mix-blend-mode: normal;
+}
+
+.logo {
+  position: absolute;
+  width: 171px;
+  height: 66px;
+  left: 37px;
+  top: 25px;
+}
+
+.homenav:hover {
+  color: #00c0f0;
+}
+
+.servicesnav:hover {
+  color: #00c0f0;
+}
+
+.aboutnav:hover {
+  color: #00c0f0;
+}
+
+.pricingnav:hover {
+  color: #00c0f0;
+}
+
+.contactnav:hover {
+  color: #00c0f0;
+}
+
+ul {
+  list-style: none;
+  display: inline;
+}
+
+li {
+  display: inline;
+  padding: 16px;
+  cursor: pointer;
+}
+
+hr {
+  position: absolute;
+  width: 1300px;
+  height: 0px;
+  left: 70px;
+  top: 101px;
+
+  border: 1.5px solid #aac0f0;
+  transform: rotate(-0.04deg);
+}
+
+.description {
+  /* We pick up, wash and deliver within 48 hours */
+
+  position: absolute;
+  width: 741px;
+  height: 74px;
+  left: 135px;
+  top: 375px;
+
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 85px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #235f83;
+}
+
+.girl1 {
+  position: absolute;
+  width: 398px;
+  height: 385px;
+  left: 933px;
+  top: 159px;
+}
+
+.sub-description {
+  position: absolute;
+  width: 513px;
+  height: 52px;
+  left: 194px;
+  top: 577px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 162%;
+  /* identical to box height, or 52px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235f83;
+}
+
+.bookAppointment {
+  position: absolute;
+  width: 217px;
+  height: 78px;
+  left: 221px;
+  top: 743px;
+
+  background: #a4c3d2;
+  border-radius: 58px;
+  border: none;
+  color: #235f83;
+}
+
+.bookAppointment:hover {
+  cursor: pointer;
+
+  background: #fffbf1;
+}
+
+.learnMore {
+  position: absolute;
+  width: 217px;
+  height: 78px;
+  left: 464px;
+  top: 743px;
+
+  background: #fffbf1;
+  border: 3px solid #a4c3d2;
+  border-radius: 58px;
+  color: #235f83;
+}
+
+.learnMore:hover {
+  cursor: pointer;
+  background-color: #aac0f0;
+}
+
+.loginorSignUp {
+  /* Rectangle 3 */
+
+  position: absolute;
+  width: 154px;
+  height: 42px;
+  left: 1125px;
+  top: 36px;
+
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156.5%;
+  /* or 28px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #235f83;
+  border-radius: 25px;
+  border-color: #a4c3d2;
+}
+
+.loginorSignUp:hover {
+  color: #00c0f0;
+  background-color: #5184a3;
+  cursor: pointer;
+}
+
+.avatar {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1306px;
+  top: 18px;
+
+  background: #d9d9d9;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+/* for popup */
+
+.center,
+.content {
+  position: absolute;
+  top: 70%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}
+
+#click {
+  display: none;
+}
+
+.click-me {
+  display: flex;
+  background: #235f83;
+  color: white;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 58px;
+  position: absolute;
+  width: 217px;
+  height: 49px;
+  top: 215px;
+  left: -619px;
+  padding-top: 28px;
+}
+
+.click-me:hover {
+  background: #aac0f0;
+}
+
+.content {
+  opacity: 0;
+  visibility: hidden;
+  width: 454px;
+  height: 638px;
+  background: bisque;
+  border-radius: 4px;
+  transition: .3s ease-in;
+  box-shadow: 0 2px 12px 0 rgba (0, 0, 0, .4);
+
+}
+
+#click:checked~.content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header {
+
+  height: 68px;
+
+}
+
+.fa-times {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #235f83;
+  cursor: pointer;
+
+}
+
+.close-btn {
+  position: absolute;
+  bottom: 12px;
+  right: 25px;
+  border: 1px;
+  cursor: pointer;
+
+}
+
+.close-btn:hover {
+  background: #5184a3;
+  transition: .5s;
+
+}
+
+
+.hrPopUp {
+  width: 391px;
+  top: 68px;
+  left: 27px;
+}
+
+input {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #235F83;
+}
+
+/*
+additional */
+
+.customerInformationText {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  margin-left: 28px;
+
+  color: #235F83;
+}
+
+.LabelFullname {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #235F83;
+  position: absolute;
+  top: 104pxs;
+  left: 25px;
+}
+
+.input-fullname {
+  top: 114px;
+  left: 26px;
+  position: absolute;
+  width: 398px;
+  height: 27px;
+  background: #A4D9FF;
+  border-radius: 10px;
+}
+
+.LabelAddress {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #235F83;
+  position: absolute;
+  top: 146px;
+  left: 25px;
+}
+
+.input-address {
+  top: 181px;
+  left: 26px;
+  position: absolute;
+  width: 398px;
+  height: 27px;
+  background: #A4D9FF;
+  border-radius: 10px;
+
+}
+
+.LabelPhone {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #235F83;
+  position: absolute;
+  top: 198px;
+  left: 25px;
+}
+
+.input-phone {
+  top: 236px;
+  left: 26px;
+  position: absolute;
+  width: 398px;
+  height: 27px;
+  background: #A4D9FF;
+  border-radius: 10px;
+}
+
+.LabelEmail {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #235F83;
+  position: absolute;
+  top: 258px;
+  left: 25px;
+}
+
+.input-email {
+  top: 295px;
+  left: 26px;
+  position: absolute;
+  width: 398px;
+  height: 27px;
+  background: #A4D9FF;
+  border-radius: 10px;
+}
+
+.LabelService {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #235F83;
+  position: absolute;
+  top: 316px;
+  left: 25px;
+}
+
+.input-service {
+  top: 354px;
+  left: 26px;
+  position: absolute;
+  width: 170px;
+  height: 27px;
+  background: #A4D9FF;
+  border-radius: 10px;
+}
+
+.LabelPrice {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #235F83;
+  position: absolute;
+  top: 316px;
+  left: 250px;
+}
+
+.input-price {
+  top: 354px;
+  left: 250px;
+  position: absolute;
+  width: 170px;
+  height: 27px;
+  background: #A4D9FF;
+  border-radius: 10px;
+}
+
+.LabelClothes {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #235F83;
+  position: absolute;
+  top: 378px;
+  left: 26px;
+}
+
+.input-clothes {
+  top: 417px;
+  left: 26px;
+  position: absolute;
+  width: 170px;
+  height: 27px;
+  background: #A4D9FF;
+  border-radius: 10px;
+}
+
+.LabelPayment {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #235F83;
+  position: absolute;
+  top: 378px;
+  left: 250px;
+}
+
+.input-payment {
+  top: 417px;
+  left: 250px;
+  position: absolute;
+  width: 170px;
+  height: 27px;
+  background: #A4D9FF;
+  border-radius: 10px;
+}
+
+.LabelDate {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #235F83;
+  position: absolute;
+  top: 439px;
+  left: 250px;
+}
+
+.input-date {
+  top: 481px;
+  left: 250px;
+  position: absolute;
+  width: 170px;
+  height: 27px;
+  background: #A4D9FF;
+  border-radius: 10px;
+}
+
+
+.LabelTime {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #235F83;
+  position: absolute;
+  top: 439px;
+  left: 26px;
+}
+
+.input-time {
+  top: 481px;
+  left: 26px;
+  position: absolute;
+  width: 170px;
+  height: 27px;
+  background: #A4D9FF;
+  border-radius: 10px;
+}
+
+
+.popUpBook {
+
+  background-color: #235F83;
+  position: absolute;
+  top: 551px;
+  width: 130px;
+  left: 66px;
+  height: 49px;
+  border-radius: 28px;
+  color: white;
+  border: none;
+}
+
+.popUpBook:hover {
+  cursor: pointer;
+  background-color: rgb(208, 215, 235);
+  color: #235F83;
+}
+
+.popUpLater {
+
+  background-color: #cad2d7;
+  position: absolute;
+  top: 551px;
+  width: 130px;
+  left: 256px;
+  height: 49px;
+  border-radius: 28px;
+  color: #235F83;
+  border: none;
+}
+
+.popUpLater:hover {
+  cursor: pointer;
+  background-color: rgb(124, 144, 198);
+  color: #bcc7ce;
+}
+
+/* 
+
+
+.anotherPopup{
+  position: absolute;
+  width: 434px;
+  left: 10px;
+  height: 339px;
+  background-color: white;
+}
+
+.notifContent{
+  position: absolute;
+  width: 409px;
+  height: 204px;
+  background: #A4D9FF;
+  border-radius: 10px;
+  left: 12px;
+  top: 66px;
+}
+.successfulTex{
+  position: absolute;
+  width: 400px;
+  height: 41px;
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 39px;
+  color: #235F83;
+  left: 54px;
+  top: 99px;
+}
+
+.checkIcon{
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  top: 37px;
+  left: 153px;
+}
+.subtext{
+  position: absolute;
+  width: 569px;
+  height: 41px;
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #235F83;
+  top: 275px;
+  left: 16px;
+} */
+
+/* #click:checked ~ .content{
+  opacity: 1;
+  visibility: visible;
+} */
+
+/* #click:checked ~ .content{
+  opacity: 1;
+  visibility: visible;
+} */
+
+/* 
+#click{
+  display: none;
+} */
+
+.anotherPopup {
+
+  transform: rotate(-0.04deg);
+
+}
+
+
+
+
+.container {
+  position: absolute;
+  width: 492px;
+  height: 359px;
+  background-color: #e2e6e9;
+  right: -22px;
+}
+
+.secondContainer {
+  position: absolute;
+  width: 452px;
+  height: 204px;
+  background: #A4D9FF;
+  border-radius: 10px;
+  top: 87px;
+  left: 20px;
+}

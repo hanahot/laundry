@@ -1,0 +1,86 @@
+<div class="header">
+
+
+
+
+  <button class="loginorSignUp" (click)="onSignUpClick()">Login/SignUp</button>
+  <img src="avatar.png" alt="Avatar" class="avatar">
+</div>
+
+
+<hr>
+
+<div class="description">
+  <p>We pick up, wash and deliver within 48 hours
+  </p>
+</div>
+
+
+<img src="../../assets/pics/girllanding1.png" alt="" class="girl1">
+
+<div class="sub-description">
+  <p>All in one laundry services!</p>
+</div>
+
+
+<!-- <button class="bookAppointment">Book Appointment</button> -->
+<button class="learnMore" (click)="onLearnMoreClick()">Learn More</button>
+
+<div class="center">
+  <input type="checkbox" id="click">
+  <label for="click" class="click-me"> Book Appointment</label>
+  <div class="content">
+    <div class="header">
+      <p class="customerInformationText">Customer Information</p>
+      <hr class="hrPopUp">
+      <label for="click" class="fas fa-times"></label>
+    </div>
+    <div class="form">
+      <form action="">
+        <p class="LabelFullname"> Full Name</p>
+        <input type="text" class="input-fullname">
+
+        <p class="LabelAddress">Address</p>
+        <input type="text" class="input-address">
+
+        <p class="LabelPhone">Phone Number</p>
+        <input type="text" class="input-phone">
+
+        <p class="LabelEmail">Email</p>
+        <input type="text" class="input-email">
+
+        <p class="LabelService">Type of Service</p>
+        <input type="text" class="input-service">
+
+
+        <p class="LabelPrice">Price</p>
+        <input type="text" class="input-price">
+
+        <p class="LabelClothes">Clothes Weight</p>
+        <input type="text" class="input-clothes">
+
+        <p class="LabelPayment">Total Payment</p>
+        <input type="text" class="input-payment">
+
+        <p class="LabelTime">Available Time</p>
+        <input type="text" class="input-time">
+
+        <p class="LabelDate">Available Date</p>
+        <input type="text" class="input-date">
+
+        <!-- <button type="submit" class="popUpBook"> Book Now</button> -->
+        <button class="popUpBook" id="click2" (click)="booknow()"> Book Now</button>
+
+
+
+
+        <button class="popUpLater" (click)="booklater()"> Book Later</button>
+      </form>
+
+
+
+    </div>
+
+    <!-- <label for="click" class="close-btn"> close</label> -->
+  </div>
+</div>

@@ -1,0 +1,301 @@
+.nav {
+  position: absolute;
+  width: 77px;
+  height: 42px;
+  left: 539px;
+  top: 41px;
+
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156.5%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #235f83;
+
+  mix-blend-mode: normal;
+}
+
+.homenav:hover {
+  color: #00c0f0;
+}
+.servicesnav:hover {
+  color: #00c0f0;
+}
+.aboutnav:hover {
+  color: #00c0f0;
+}
+.pricingnav:hover {
+  color: #00c0f0;
+}
+.contactnav:hover {
+  color: #00c0f0;
+}
+
+ul {
+  list-style: none;
+  display: inline;
+}
+li {
+  display: inline;
+  padding: 16px;
+  cursor: pointer;
+}
+/* li {
+  float: right;
+  padding: 16px;
+  cursor: pointer;
+} */
+
+hr {
+  position: absolute;
+  width: 1300px;
+  height: 0px;
+  left: 70px;
+  top: 101px;
+
+  border: 1.5px solid #aac0f0;
+  transform: rotate(-0.04deg);
+}
+
+.login-image {
+  /* position: absolute;
+  width: 417px;
+  height: 413px;
+  left: 237px;
+  top: 261px; */
+
+  position: absolute;
+  width: 445px;
+  height: 374px;
+  left: 274px;
+  top: 228px;
+}
+.login-card {
+  background-color: blue;
+
+  position: absolute;
+  width: 455px;
+  height: 520px;
+  left: 830px;
+  top: 200px;
+  padding: 2em;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #00c0f0;
+  position: absolute;
+  background: #c5e2f0;
+  border-radius: 27px;
+}
+
+.signIn-label {
+  margin-top: 10px;
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  margin-left: 118px;
+  color: #235f83;
+}
+
+.input-email {
+  height: 2em;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: none;
+  width: 346.97px;
+  height: 48px;
+  margin-left: 5mm;
+  background: #f5f5f5;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #235f83;
+  top: 107px;
+  position: absolute;
+}
+.input-password {
+  height: 2em;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: none;
+  width: 346.97px;
+  height: 48px;
+  margin-left: 5mm;
+
+  background: #f5f5f5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  /* for the place holder */
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: 179px;
+}
+
+.login-button {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #235f83;
+  border-radius: 20px;
+  width: 139.09px;
+  height: 55.94px;
+  left: 20%;
+  top: 581px;
+  border: none;
+  justify-content: center;
+  margin-left: 30%;
+  /*
+  for the text login in the button */
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #fffbf1;
+}
+.login-button:hover {
+  cursor: pointer;
+  background-color: #aac0f0;
+}
+
+.option {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #6c8054;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.signUpHere {
+  color: #235f83;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  align-items: center;
+  letter-spacing: 0.1em;
+}
+
+.icons {
+  width: 15px;
+  display: inline-block;
+}
+
+.title {
+  position: absolute;
+  width: 558px;
+  height: 112px;
+  left: 312px;
+  top: 606px;
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #235f83;
+}
+
+.landingButton {
+  position: absolute;
+  width: 94px;
+  height: 42px;
+  left: 1285px;
+  top: 41.02px;
+
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156.5%;
+  /* or 28px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #235f83;
+
+  cursor: pointer;
+  border: none;
+}
+.landingButton:hover {
+  color: #aac0f0;
+}
+
+.logo {
+  position: absolute;
+  width: 171px;
+  height: 66px;
+  left: 37px;
+  top: 25px;
+}
+
+.adminOption {
+  font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #35AFF3;
+
+background: #C5E2F0;
+border: 1px solid #35AFF3;
+border-radius: 20px;
+width: 111px;
+height: 35px;
+justify-content: center;
+
+margin-left: 34%;
+margin-top: 3%;
+}
+
+.adminOption:hover{
+  cursor: pointer;
+  background-color: bisque;
+}

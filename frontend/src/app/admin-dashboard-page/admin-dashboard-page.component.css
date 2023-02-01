@@ -1,0 +1,202 @@
+.totalCustomer{
+
+  box-sizing: border-box;
+
+position: absolute;
+width: 287px;
+height: 151px;
+left: 522px;
+top: 167px;;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.totalDriver{
+  box-sizing: border-box;
+
+position: absolute;
+width: 287px;
+height: 151px;
+left: 819px;
+top: 167px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.totalDelivered{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 287px;
+  height: 154px;
+  left: 1116px;
+  top: 167px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.totalDriverText{
+  box-sizing: border-box;
+  position: absolute;
+  width: 282px;
+  height: 66px;
+  left: 3px;
+  top: 5px;
+  background: #C5E2F0;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.totalCustomerText{
+  box-sizing: border-box;
+  position: absolute;
+  width: 282px;
+  height: 66px;
+  left: 3px;
+  top: 5px;
+  background: #C5E2F0;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+
+}
+.totaldeliveredtext{
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 282px;
+  height: 66px;
+  left: 3px;
+  top: 5px;
+  background: #C5E2F0;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.totalText{
+
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #235F83;
+justify-content: center;
+}
+
+.totals{
+  position: absolute;
+  left: 56px;
+}
+
+.tableOfTotals{
+  width: 100%;
+  height: 58px;
+  background-color: bisque;
+  text-align: center;
+
+  font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+
+color: #235F83;
+}
+
+
+.completedList{
+  box-sizing: border-box;
+
+position: absolute;
+width: 873px;
+height: 290px;
+left: 584px;
+top: 358px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.OrderList{
+  left: 584px;
+  top: 689px;
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 873px;
+ height: 290px;
+  background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.Text{
+  box-sizing: border-box;
+  width: 868px;
+  height: 72px;
+  left: 530px;
+  top: 415px;
+  background: #C5E2F0;
+  /* border-radius: 25px; */
+  margin: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-left: 2px;
+  margin-top: 6px;
+
+
+
+
+
+
+height: 79px;
+left: 881px;
+top: 416px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #235F83;
+justify-content: center;
+}
+
+.tableOfCompletedList{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.tableOfCompletedList th{
+  background-color: #ccdde5;
+  height: 48px;
+}
+
+.tableOfCompletedList td{
+  background-color: bisque;
+  height: 33px;
+
+  font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 30px;
+
+color: #235F83;
+}

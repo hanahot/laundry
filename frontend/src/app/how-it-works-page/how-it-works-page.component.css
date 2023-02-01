@@ -1,0 +1,234 @@
+.text1 {
+  position: absolute;
+  width: 513px;
+  height: 52px;
+  left: 600px;
+  top: 190px;
+
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 162%;
+  /* identical to box height, or 52px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235f83;
+}
+.text2 {
+  position: absolute;
+  width: 513px;
+  height: 52px;
+  left: -80px;
+  top: 62px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 162%;
+  /* identical to box height, or 52px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235f83;
+}
+
+.laundry {
+  position: absolute;
+  width: 125px;
+  height: 128px;
+  left: 180px;
+  top: 430px;
+}
+
+.Laundrytext {
+  position: absolute;
+  width: 275px;
+  height: 32px;
+  left: 110px;
+  top: 591px;
+
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+
+  color: #235f83;
+}
+
+.Laundrytext1 {
+  position: absolute;
+  width: 187px;
+  height: 70px;
+  left: 154px;
+  top: 643px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #61a7ce;
+}
+
+.deliverycar {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 486px;
+  top: 430px;
+}
+
+.deliverytext {
+  position: absolute;
+  width: 238px;
+  height: 35px;
+  left: 446px;
+  top: 591px;
+
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+
+  color: #235f83;
+}
+
+.deliverytext1 {
+  position: absolute;
+  width: 188px;
+  height: 85px;
+  left: 471px;
+
+  top: 643px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #61a7ce;
+}
+
+.washingmachine {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 795px;
+  top: 430px;
+}
+
+.Washingtext {
+  /* We clean your clothes */
+
+  position: absolute;
+  width: 263px;
+  height: 112px;
+  left: 759px;
+  top: 554px;
+
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+
+  color: #235f83;
+}
+
+.Washingtext1 {
+  position: absolute;
+  width: 192px;
+  height: 79px;
+  left: 760px;
+  top: 643px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #61a7ce;
+}
+
+.truck {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 1131px;
+  top: 430px;
+}
+
+.trucktext {
+  position: absolute;
+  width: 242px;
+  height: 29px;
+  left: 1061px;
+  top: 595px;
+
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+
+  color: #235f83;
+}
+
+.trucktext1 {
+  position: absolute;
+  width: 186px;
+  height: 69px;
+  left: 1077px;
+  top: 643px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #61a7ce;
+}
+
+.anotherComponent{
+
+
+}

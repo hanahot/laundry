@@ -1,0 +1,358 @@
+.phone{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 856px;
+top: 453px;
+}
+.contactus{
+  position: absolute;
+width: 219px;
+height: 22px;
+left: 919px;
+top: 433px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #6B6B75;
+}
+.num1{
+  position: absolute;
+width: 227px;
+height: 43px;
+left: 928px;
+top: 487px;
+
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+.num2{
+  position: absolute;
+width: 258px;
+height: 85px;
+left: 928px;
+top: 517px;
+
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+
+.place{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 856px;
+top: 638px;
+}
+
+.placep{
+  position: absolute;
+width: 219px;
+height: 22px;
+left: 919px;
+top: 616px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #6B6B75;
+}
+.place1{
+  position: absolute;
+width: 242px;
+height: 74px;
+left: 933px;
+top: 665px;
+
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+
+
+
+
+
+.input-name{
+  /* Full name */
+
+  position: absolute;
+  width: 310px;
+  height: 32px;
+
+  top: 158px;
+  font-family: 'Quicksand';
+  left: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 162%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #AFAFB1;
+
+  border: none;
+}
+.input-address{
+  /* Address */
+
+
+position: absolute;
+width: 310px;
+    height: 32px;
+left: 60px;
+top: 227px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 162%;
+/* or 29px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #AFAFB1;
+border: none;
+}
+.input-email{
+  /* E-mail */
+
+
+position: absolute;
+width: 310px;
+    height: 32px;
+left: 60px;
+top: 290px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 162%;
+/* or 29px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #AFAFB1;
+border: none;
+}
+.input-number{
+  /* Phone No */
+
+
+position: absolute;
+width: 310px;
+    height: 32px;
+left: 60px;
+top: 355px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 162%;
+/* or 29px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #AFAFB1;
+border: none;
+}
+.input-message{
+  /* Message */
+
+
+position: absolute;
+width: 310px;
+    height: 32px;
+left: 60px;
+top: 417px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 162%;
+/* or 29px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #AFAFB1;
+border: none;
+}
+.submit-button{
+/* Rectangle 1 */
+
+position: absolute;
+width: 185px;
+height: 40px;
+left: 125px;
+top: 489px;
+justify-content: center;
+
+/* SUBMIT */
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #35AFF3;
+
+background: #FFFFFF;
+border: 1px solid #35AFF3;
+border-radius: 58px;
+}
+
+
+.contact{
+  position: absolute;
+width: 369px;
+height: 47px;
+left: 88px;
+top: 26px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 162%;
+/* or 52px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #35AFF3;
+
+}
+
+
+.contact-card
+{
+  box-sizing: border-box;
+  position: absolute;
+  width: 447px;
+  height: 547px;
+  left: 290px;
+  top: 219px;
+  background: #FFFBF1;
+  border-radius: 25px;
+  border: #35AFF3;
+  border-style: solid;
+}
+
+
+
+.background{
+  margin-top: 141px;
+  /* width: 93%; */
+  margin-left: 10%;
+  margin-right: 10%;
+
+  border-radius: 25px;
+}
+
+
+.firsthr{
+  position: absolute;
+    width: 319px;
+    height: 0px;
+    left: 59px;
+    top: 187px;
+    border: 1.5px solid #AAC0F0;
+
+}
+
+.secondhr{
+  position: absolute;
+    width: 319px;
+    height: 0px;
+    left: 59px;
+    top: 258px;
+    border: 1.5px solid #AAC0F0;
+}
+
+.thirdhr{
+  position: absolute;
+    width: 319px;
+    height: 0px;
+    left: 59px;
+    top: 319px;
+    border: 1.5px solid #AAC0F0;
+}
+
+.fourthhr{
+
+  position: absolute;
+    width: 319px;
+    height: 0px;
+    left: 59px;
+    top: 384px;
+    border: 1.5px solid #AAC0F0;
+}
+
+.fifthhr{
+  position: absolute;
+    width: 319px;
+    height: 0px;
+    left: 59px;
+    top: 447px;
+    border: 1.5px solid #AAC0F0;
+
+}

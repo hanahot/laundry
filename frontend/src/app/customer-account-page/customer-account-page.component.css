@@ -1,0 +1,347 @@
+.driverInformation{
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 1316px;
+  height: 199px;
+  left: 100px;
+  top: 130px;
+
+  background: #C5E2F0;
+  border-radius: 25px;
+  border-style: solid;
+border-color: #00C0F0
+
+}
+
+.imageplaced{
+
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 103px;
+  top: 40px;
+  background-color:rgb(75, 94, 104);
+
+}
+
+
+.welcome{
+  position: absolute;
+  width: 400px;
+  height: 63px;
+  left: 319px;
+
+
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #235F83;
+
+
+}
+
+.fullName{
+  position: absolute;
+  width: 550px;
+  height: 36px;
+  left: 321px;
+  top: 60px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #6B6B75;
+}
+
+.address{
+  position: absolute;
+width: 360px;
+height: 36px;
+left: 319px;
+top: 103px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: #6B6B75;
+}
+
+.phoneNumber{
+  position: absolute;
+width: 406px;
+height: 36px;
+left: 806px;
+top: 64px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: #6B6B75;
+}
+
+.email{
+
+  position: absolute;
+width: 513px;
+height: 36px;
+left: 806px;
+top: 105px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: #6B6B75;
+}
+
+
+.appointmentDetails{
+
+  box-sizing: border-box;
+
+position: absolute;
+width: 1300px;
+height: 187px;
+left: 107px;
+top: 354px;
+
+  background: #FFFFFF;
+border-radius: 25px;
+border-style: solid;
+border-color: #00C0F0
+;
+}
+
+.apointmentTitle{
+  box-sizing: border-box;
+  position: absolute;
+  width: 1292px;
+  height: 58px;
+  left: 2px;
+  top: 1px;
+  background: #C5E2F0;
+
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+}
+
+.AppointmentText{
+  position: absolute;
+width: 253px;
+height: 63px;
+left: 532px;
+top: -27px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #235F83;
+}
+
+.tableDescription{
+  width: 100%;
+  margin-top: 57px;
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-collapse: collapse;
+
+}
+
+.tableHeaders{
+  height: 50px;
+  background-color: #b9b9c9;
+}
+
+.tableRows{
+  background: #dce0e2;
+height: 50px;
+border-style: solid;
+border-color: #bfcfd3;
+text-align: center;
+}
+
+
+.completedAppointment{
+
+  box-sizing: border-box;
+
+position: absolute;
+width: 610px;
+height: 350px;
+left: 105px;
+top: 563px;
+
+background: #FFFFFF;
+border-radius: 25px;
+border: solid;
+border-color: #00C0F0
+}
+
+.onHoldAppointment{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 677px;
+height: 350px;
+left: 733px;
+top: 563px;
+
+background: #FFFFFF;
+border-radius: 25px;
+border-radius: 25px;
+border: solid;
+border-color: #00C0F0
+}
+
+.completedTitle{
+
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 605px;
+  height: 58px;
+  left: 6px;
+  top: 0;
+  background: #C5E2F0;
+  left: -0;
+  ius: 25px;
+
+background: #C5E2F0;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+}
+
+.completedText{
+  position: absolute;
+width: 253px;
+height: 63px;
+left: 244px;
+
+top: -25px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #235F83;
+}
+
+.onHoldTitle{
+  box-sizing: border-box;
+
+position: absolute;
+width: 672px;
+height: 58px;
+left: 0px;
+top: 0px;
+
+background: #C5E2F0;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+}
+
+.onholdText{
+  position: absolute;
+width: 253px;
+height: 63px;
+left: 282px;
+top: -24px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #235F83;
+}
+
+
+.dateTimeCollected{
+  position: absolute;
+width: 283px;
+height: 63px;
+left: 32px;
+top: 74px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.dateTimeDelivered{
+
+  position: absolute;
+width: 283px;
+height: 63px;
+left: 32px;
+top: 164px;
+
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.editImage{
+margin: 4px;
+width: 19px;
+height: 17px;
+left: 1234px;
+top: 707px;
+}
+
+.closeImage{
+  margin: 4px;
+  width: 19px;
+height: 17px;
+
+}

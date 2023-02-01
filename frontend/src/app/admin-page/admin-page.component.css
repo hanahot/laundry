@@ -1,0 +1,233 @@
+.adminInformation {
+  position: absolute;
+  width: 459px;
+  left: 99px;
+  height: 615px;
+  top: 238px;
+  border-radius: 10px;
+  background-color: rgb(231, 240, 237);
+
+  box-shadow: inset 0 0 15px #95928b;
+}
+
+.adminImage {
+  background-color: beige;
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 30px;
+  top: 50px;
+}
+
+.adminFullname {
+  position: absolute;
+  width: 258px;
+  height: 64px;
+  left: 177px;
+  top: 57px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #235f83;
+}
+
+.adminNumber {
+  position: absolute;
+  width: 381px;
+  height: 36px;
+  left: 177px;
+  top: 98px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #235f83;
+}
+
+.adminEmail {
+  position: absolute;
+  width: 381px;
+  height: 36px;
+  left: 177px;
+  top: 134px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #235f83;
+}
+
+.totalCustomer {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 287px;
+  height: 315px;
+  left: 566px;
+  top: 169px;
+
+  background: #e2e7e8;
+  border-radius: 25px;
+}
+
+.totalDriver {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 287px;
+  height: 315px;
+  left: 869px;
+  top: 169px;
+
+  background: #e2e7e8;
+  border-radius: 25px;
+}
+
+.totalDelivered {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 287px;
+  height: 315px;
+  left: 1171px;
+  top: 169px;
+
+  background: #e2e7e8;
+  border-radius: 25px;
+}
+
+.total {
+  position: absolute;
+
+  right: 1513px;
+  top: 17px;
+}
+
+.totalCustomerText {
+  width: 287px;
+  height: 72px;
+  background: #c5e2f0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  position: absolute;
+}
+
+.totalDriverText {
+  width: 287px;
+  height: 72px;
+  background: #c5e2f0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  position: absolute;
+}
+
+.totaldeliveredtext {
+  width: 287px;
+  height: 72px;
+  background: #c5e2f0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  position: absolute;
+}
+
+.totalText {
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #235f83;
+
+  justify-content: center;
+}
+
+.totals {
+  position: absolute;
+  left: 312%;
+  top: -31%;
+}
+
+.dashboard {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 459px;
+  height: 80px;
+  left: 0px;
+  top: 226px;
+
+  background: #c5e2f0;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #235f83;
+}
+
+.dashboard:hover {
+  cursor: pointer;
+  background-color: #95928b;
+}
+
+.employeeInformation {
+  position: absolute;
+  width: 459px;
+  height: 80px;
+  left: 0px;
+  top: 312px;
+
+  background: #c5e2f0;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #235f83;
+}
+
+.employeeInformation:hover {
+  cursor: pointer;
+  background-color: #95928b;
+}
+
+.customerInformation {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 459px;
+  height: 80px;
+  left: 0px;
+  top: 401px;
+
+  background: #c5e2f0;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #235f83;
+}
+
+.customerInformation:hover {
+  cursor: pointer;
+  background-color: #95928b;
+}
+
+.menuText {
+  width: 100%;
+  height: 32px;
+  text-align: center;
+
+  top: 252px;
+
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}

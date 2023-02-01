@@ -1,0 +1,290 @@
+.serviceDescription{
+  position: absolute;
+  width: 513px;
+  height: 52px;
+  left: 636px;
+  top: 140px;
+
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 162%;
+  /* identical to box height, or 52px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+}
+
+.servicesSubDescription{
+
+  position: absolute;
+    width: 853px;
+    height: 52px;
+    left: 468px;
+    top: 204px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 162%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #235F83;
+}
+
+.laundryservice{
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 488px;
+  left: 80px;
+  top: 295px;
+  background: #C5E2F0;
+  border-radius: 25px;
+}
+.starchandPressService{
+  box-sizing: border-box;
+
+position: absolute;
+width: 288px;
+height: 488px;
+left: 407px;
+top: 295px;
+
+background: #C5E2F0;
+border-radius: 25px;
+}
+
+.drywashService{
+  box-sizing: border-box;
+
+position: absolute;
+width: 288px;
+height: 488px;
+left: 734px;
+top: 295px;
+
+background: #C5E2F0;
+border-radius: 25px;
+}
+
+.ironingservice{
+  box-sizing: border-box;
+
+position: absolute;
+width: 288px;
+height: 488px;
+left: 1072px;
+top: 295px;
+
+background: #C5E2F0;
+border-radius: 25px;
+}
+
+.washingMachineIcon{
+  position: absolute;
+  width: 111px;
+  height: 96px;
+left: 156px;
+top: 395px;
+left: 88px;
+top: 104px;
+}
+
+.shirtIcon{
+  position: absolute;
+  width: 111px;
+  height: 96px;
+  left: 156px;
+  top: 395px;
+  left: 88px;
+  top: 104px;
+}
+
+.hangerIcon{
+  position: absolute;
+  width: 111px;
+  height: 96px;
+  left: 156px;
+  top: 395px;
+  left: 88px;
+  top: 104px;
+}
+.ironIcon{
+  position: absolute;
+  width: 111px;
+  height: 96px;
+  left: 156px;
+  top: 395px;
+  left: 88px;
+  top: 104px;
+}
+
+
+.laundry{
+  position: absolute;
+    width: 98px;
+    height: 17px;
+    left: 100px;
+    top: 225px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #235F83;
+
+}
+
+
+.laundryDescription{
+  position: absolute;
+  width: 213px;
+  height: 69px;
+  left: 37px;
+  top: 271px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+}
+
+.starchandPress{
+  position: absolute;
+    width: 177px;
+    height: 17px;
+    left: 64px;
+    top: 225px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #235F83;
+}
+
+.starchandPressDescription{
+position: absolute;
+  width: 213px;
+  height: 69px;
+  left: 37px;
+  top: 263px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+}
+
+.drywash{
+  position: absolute;
+  width: 177px;
+  height: 17px;
+  left: 95px;
+  top: 225px;
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #235F83;
+
+}
+
+
+.drywashDescription{
+
+  position: absolute;
+  width: 213px;
+  height: 69px;
+  left: 37px;
+  top: 263px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+
+}
+
+
+.ironing{
+  position: absolute;
+  width: 177px;
+  height: 17px;
+  left: 104px;
+  top: 225px;
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #235F83;
+}
+
+
+.ironingDescription
+{
+  position: absolute;
+  width: 213px;
+  height: 69px;
+  left: 37px;
+  top: 263px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+}
