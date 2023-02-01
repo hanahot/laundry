@@ -228,7 +228,409 @@
   color: #61a7ce;
 }
 
-.anotherComponent{
 
+
+
+
+
+
+
+
+.ourFeatures {
+  position: absolute;
+  width: 393px;
+  height: 62px;
+
+  font-family: "Marck Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 162%;
+  /* or 78px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.23em;
+
+  color: #235f83;
+
+  margin-top: 74%;
+  margin-left: 38%;
+}
+
+.featuretext {
+  position: absolute;
+  width: 515px;
+  height: 23px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 162%;
+  /* or 52px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235f83;
+
+  margin-left: 40%;
+  margin-top: 81%;
+}
+
+.likeIcon {
+  position: absolute;
+  width: 120px;
+  height: 111px;
+  margin-left: 13%;
+  margin-top: 90%;
+}
+.personalizedExpDesc {
+  position: absolute;
+  width: 479px;
+  height: 38px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 162%;
+  /* or 32px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+
+  margin-left: 24%;
+  margin-top: 90%;
+
+}
+.personalizedExpDesc1 {
+  position: absolute;
+  width: 345px;
+  height: 51px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #61a7ce;
+  margin-left: 22%;
+  margin-top: 93%;
+}
+
+.awardIcon{
+  position: absolute;
+  width: 120px;
+  height: 111px;
+  margin-left: 54%;
+  margin-top: 90%;
+}
+
+.qualityDesc{
+  position: absolute;
+  width: 479px;
+  height: 38px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 162%;
+  /* or 32px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+
+  margin-left: 72%;
+  margin-top: 90%;
+
+}
+
+.qualityDesc1{
+
+  position: absolute;
+  width: 345px;
+  height: 51px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #61A7CE;
+  margin-left: 63%;
+  margin-top: 93%;
+}
+
+.walletIcon{
+  position: absolute;
+  width: 120px;
+  height: 111px;
+  margin-left: 13%;
+  margin-top: 102%;
+}
+
+.pricingDesc{
+  position: absolute;
+  width: 479px;
+  height: 38px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 162%;
+  /* or 32px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+
+  margin-left: 26%;
+  margin-top: 103%;
+
+}
+
+.pricingDesc1{
+  position: absolute;
+  width: 345px;
+  height: 51px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #61A7CE;
+  margin-left: 23%;
+  margin-top: 106%;
+}
+
+.deliveryIcon{
+  position: absolute;
+  width: 120px;
+  height: 111px;
+  margin-left: 55%;
+  margin-top: 102%;
+}
+
+.clickIcon{
+  position: absolute;
+  width: 120px;
+  height: 111px;
+  margin-left: 12%;
+  margin-top: 115%;
+}
+
+.hoursIcon{
+  position: absolute;
+  width: 120px;
+  height: 111px;
+  margin-left: 54%;
+  margin-top: 115%;
+}
+
+
+
+.deliveryDesc{
+  position: absolute;
+  width: 479px;
+  height: 38px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 162%;
+  /* or 32px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+
+  margin-left: 68%;
+  margin-top: 103%;
+}
+
+.deliveryDesc1{
+  position: absolute;
+  width: 345px;
+  height: 51px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #61A7CE;
+  margin-left: 65%;
+  margin-top: 106%;
+}
+
+
+.convinienceDesc{
+  position: absolute;
+  width: 479px;
+  height: 38px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 162%;
+  /* or 32px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+
+  margin-left: 27%;
+  margin-top: 115%;
+}
+
+.convinienceDesc1{
+  position: absolute;
+  width: 345px;
+  height: 51px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #61A7CE;
+  margin-left: 22%;
+  margin-top: 118%;
+}
+
+.instantDesc{
+  position: absolute;
+  width: 479px;
+  height: 38px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 162%;
+  /* or 32px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+
+  margin-left: 65%;
+  margin-top: 115%;
+}
+
+.instantDesc1{
+  position: absolute;
+  width: 345px;
+  height: 51px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 162%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #61A7CE;
+  margin-left: 64%;
+  margin-top: 118%;
+
+}
+
+
+.footer{
+
+  width: 1000px;
+  height: 24px;
+
+  font-family: 'Fredoka';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #235F83;
+  position: absolute;
+left: 30%;
+top:120%;
+}
+
+
+
+.features{
+display: block;
 
 }
